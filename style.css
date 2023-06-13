@@ -1,3 +1,20 @@
 body{
     background-color: powderblue;
 }
+
+@import url('http://fonts.googleapis.com/css?family=Urbanist&display=swap');
+
+h1{
+    font-family: 'Urbanist';
+}
+
+/* moblie styling */
+@media only screen and (max-width: 420px) {
+    body {
+      background-color: lightblue;
+    }
+
+    h1{
+        color: #FFF;
+    }
+  }
