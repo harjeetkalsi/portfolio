@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+    
+    input[type=submit] {
+            background-color: purple; 
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer; 
+        }
+    input[type=submit]:hover {
+            background-color: yellow; 
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer; 
+        }
+        
+</style>
+
 <head>
 
     <meta name="description" content="This is a website for my programming portfolio">
     <meta name="keywords" content="code, buisness, programming, portfolio, python">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harjeet's programming portfolio</title>
 </head>
 
@@ -21,7 +44,24 @@
 </header>
 
 <main>
+    <br>
+    <h1>Enter your details to Subscribe for updates:</h1>
+    <form onsubmit="submitForm()">
+    
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter Email">
+    
+     
+        <input type="submit" value="Submit">
+        
+    
+    </form>
     <h1><q>I am an aspiring web developer </q>, looking for work!</h1>
+    <img src="./railcard.jpeg" alt="A picture of Harjeet" width="450" height="600">
+    <br>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/0H_Xwm1QQlk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <blockquote cite="https://www.wandzilakwebdesign.com/philosophy-of-web-design-and-development/">
         <p>We believe that a website is a powerful entity capable of representing an idea, a person, a company, a service or a product.
 
