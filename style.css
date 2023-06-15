@@ -8,8 +8,16 @@ h1{
     font-family: 'Urbanist';
 }
 
-/* moblie styling */
-@media only screen and (max-width: 420px) {
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.youtube_video{
+    flex: 2;
+}
+/* laptop-screen */
+@media only screen and (min-width: 420px) {
     body {
       background-color: lightblue;
     }
